@@ -1,0 +1,15 @@
+body{
+    border: solid 1px red;
+}
+h1{
+    border: solid 1px bled;
+}
+p{
+    border: solid 1px green;
+}
+ul{
+    border: solid 1px red;
+}
+li{
+    border: solid 1px blue;
+}

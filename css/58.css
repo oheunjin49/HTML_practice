@@ -1,0 +1,17 @@
+div{
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    background-image: url('../image/Background.png');}
+    h1{
+        color: white;
+    }
+h5{
+    color: white;
+}
+.mybtn{
+    color: red;
+}

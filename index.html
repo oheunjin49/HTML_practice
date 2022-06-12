@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="js1.js"></script>
+    <script>
+        $(document).ready(function () {
+    $("nav>ul>li").click(function () {
+        $(this).find(".sub_menu").show();
+    }, function () {
+        $(this).find(".sub_menu").hide();
+    });
+});
+    </script>
+
+    <style>
+        
+        #header1{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #fff5ee;
+            height: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        header a{
+            font-size: 40px;
+            text-decoration: none;
+            float: left;
+            padding: 50px;
+            font-weight: bold;
+            color: #bebebe;
+        }
+        #top_nav li{
+           display: inline-block;
+            width: 80px;      
+                
+        }
+        #top_nav li a{
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+        }
+        #top_nav{
+            float: right;
+            padding: auto;
+        }
+        #nav1{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 45px;
+            background-color: aliceblue;
+            position: fixed;
+            top: 200px;
+            left: 0;
+            right: 0;
+
+        }
+        #nav1 li{
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+           
+           
+        }
+        #nav1 li a{
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            font-weight: bold;
+            
+          
+        }
+        #nav1 li a:hover{
+            color: red;
+        }
+        table{
+            border-radius: 10px;
+            width: 700px;
+            height: 300px;
+        }
+        #content{
+            padding: 20px;
+            float: left;
+           
+
+        }
+aside{
+    float: right;
+    text-align: center;
+    
+}
+
+.sub_menu li a{ 
+    display: block;
+    background: aliceblue;
+    width: 200px;
+    height: 35px;
+    padding-top: 20px;
+    display: block;
+}
+.sub_menu{
+    position: absolute;
+    display: none;
+    height: 45px;
+    padding-top: 15px;
+}
+nav>ul>li:hover .sub_menu{
+    display: block;
+}
+.sub{
+    width: 200px;
+
+}
+  #container{
+   width: 100%;
+   z-index: 0;
+   height: 1500%;
+   overflow: auto;
+}  
+table{
+    border-collapse: collapse;}
+th{background-color: white;}
+tr:nth-child(even) { background-color: #e6f1ff; }
+tr:nth-child(odd) { background-color: lightgray; }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="header1">
+        <header><a href="#">Blog</a></header>
+        <nav id="top_nav">
+            <ul type="none">
+                <li><a href="#a">로그인</a></li>
+                <li><a href="register_member.html">회원가입</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="nav1">
+        <nav>
+            <ul class="maim_menu">
+                <li><a href="#">About</a>
+                <ul class="sub_menu">
+                    <div class="sub">
+                    <li><a href="#">메뉴1-1</a></li>
+                    <li><a href="#">메뉴1-2</a></li>
+                    <li><a href="register_member.html">회원가입</a></li></div>
+                </ul>
+                </li>
+                <li><a href="#">메뉴2</a>
+                    <ul class="sub_menu">
+                        <div class="sub">
+                        <li><a href="#">메뉴2-1</a></li>
+                        <li><a href="#">메뉴2-2</a></li>
+                        <li><a href="#">메뉴2-3</a></li></div>
+                    </ul>
+                    </li>
+                    <li><a href="#">메뉴3</a>
+                        <ul class="sub_menu">
+                            <div class="sub">
+                            <li><a href="#">메뉴3-1</a></li>
+                            <li><a href="#">메뉴3-2</a></li>
+                            <li><a href="#">메뉴3-3</a></li></div>
+                        </ul>
+                        </li>
+                        <li><a href="#">메뉴4</a>
+                            <ul class="sub_menu">
+                                <div class="sub">
+                                <li><a href="#">메뉴4-1</a></li>
+                                <li><a href="#">메뉴4-2</a></li>
+                                <li><a href="#">메뉴4-3</a></li></div>
+                            </ul>
+                            </li>
+            </ul>
+        </nav>
+        <div id="container">
+        <div id="content">
+            <section>
+                <article>
+                    <table border ="1">
+                        <th>순번</th>
+                        <th>이름</th>
+                        <th>id</th>
+                        <th>전화번호</th>
+                        <th>이메일</th>
+                        <tr>
+                            <td>01</td>
+                            <td>김xx</td>
+                            <td>abc</td>
+                            <td>010-1234-1234</td>
+                            <td>fdjs@naver.com</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>이xx</td>
+                            <td>def</td>
+                            <td>010-1235-6789</td>
+                            <td>fqddf@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>박xx</td>
+                            <td>hhii</td>
+                            <td>010-1234-9876</td>
+                            <td>adfg@naver.com</td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>최xx</td>
+                            <td>abcd</td>
+                            <td>010-9876-1234</td>
+                            <td>asdf@gmail.com</td>
+                        </tr>
+                    </table>
+                </article>
+                <article>
+                    <h2>회원 취미</h2>
+                    <ul type="none">
+                        <li><h3>AAA</h3>
+                        <p>영화보기</p></li><br>
+                        <li><h3>BBBB</h3>
+                        <p>독서</p></li><br>
+                        <li>
+                            <h3>CCCC</h3>
+                            <p>피아노 연주</p>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+                </div>
+                <aside>
+                    <div id="container"></h3>
+                        <p>현재시간 : <span id ="current" class="display"></span></p>
+                    </div>
+                    <div class="aside1">
+                        <h3>UPDATE</h3>
+                        <ul>
+                            <li class="li"><a href="#a">DATA</a></li>
+                        </ul>
+            </aside>
+        </div>
+    </div>
+
+</body>
+</html>

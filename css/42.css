@@ -1,0 +1,15 @@
+#title1{
+    border-top: solid 2px black;
+    padding: 5px;
+    width: 345px;
+}
+#title2{
+    border-left: solid 8px red;
+    padding: 5px;
+}
+#title3{
+    border: solid 2px green;
+    border-radius: 10px;
+    padding: 5px;
+    width: 345px;
+}

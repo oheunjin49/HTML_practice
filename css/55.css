@@ -1,0 +1,18 @@
+ body > div{
+    width: 400px; height: 100px;
+    border: 3px solid black;
+     position: relative;
+     overflow: scroll;
+}
+.box:nth-child(1){
+background-color: red;
+left: 10px; top: 10px
+}
+.box:nth-child(2){
+    background-color: blue;
+    left: 50px; top: 50px;
+}
+.box:nth-child(3){
+    background-color: green;
+    left: 90px; top: 90px;
+}

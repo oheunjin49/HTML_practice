@@ -1,0 +1,8 @@
+ul{
+    border: solid 1px red;
+    width: 300px;
+    
+}
+li{
+    border-bottom: dotted 1px green;
+}

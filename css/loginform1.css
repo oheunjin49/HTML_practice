@@ -1,0 +1,82 @@
+body{
+    margin:0 auto;
+}
+body, table, div, p, span{font-family: 'Noto Sans Kr';}
+a{
+     text-decoration: none;
+     color: #333;
+}
+#con{
+    width: 100%;
+    height: 100vh;
+    background-color: #bfefff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+#login{
+    width: 600px;
+    height: 600px;
+    margin:0 auto;
+}
+#login_form{
+    border-radius: 10px;
+    padding: 510px;
+    background: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login{
+    font-size: 25px;
+    font-weight: 900;
+    color: #333;
+}
+.size{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    width: 310px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #00ced1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #48d1cc;
+}
+hr{
+    margin-top: 20px;
+    background: #eee;
+}
+.find{
+    color: #ddd;
+}
+.find span{
+    padding-left: 10px;
+}
+.find span::before{
+    content: '|' ;
+    color: #333;
+    padding-right: 10px;
+}
+.find span:nth-child(1):before{
+    content: none;
+}
+.find span:nth-child(1){
+    padding-left: 0px;
+}
+.find a:hover{
+    color: #707070;
+}

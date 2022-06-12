@@ -1,0 +1,18 @@
+.a{
+    font-size: 32px;
+font-weight: 800;
+}
+.b{
+     font-family: Arial;
+     text-align: right;
+     font-style: italic;
+    }
+.c{
+    font-size: large;
+    font-family: 'Times New Roman';
+}
+.d{
+    font-size: small;
+    text-align: center;
+    font-weight: 100;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>insertData() 메소드</h1>
+    <p id="text">지금 시간은 오후 3시입니다.</p>
+    <button onclick="appendText()">텍스트 추가!</button>
+    <script>
+       
+        function appendText(){
+            var text = document.getElementById("text").firstChild;
+            text.insertData(6,"나른한 ");
+        }
+    </script>
+</body>
+</html>

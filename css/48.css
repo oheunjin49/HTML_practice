@@ -1,0 +1,19 @@
+h1{
+    margin: 20px 0 0 10px;
+    padding-left: 10px;
+    border-left: solid 5px blue ;
+}
+p{
+    margin: 15px 0 0 20px;
+}
+ul{
+    margin: 10px 0 0 20px;
+    padding: 5px 0 3px 0;
+    width: 400px;
+    border-top: solid 1px grey;
+    border-bottom: soild 1px grey;
+}
+li{
+    margin-left: 30px;
+    padding-top: 5px;
+}

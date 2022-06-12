@@ -1,0 +1,4 @@
+body{
+    background-image: url("../image/49.jpg");
+}
+li*a{background-color: red;}
